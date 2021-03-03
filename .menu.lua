@@ -7,7 +7,7 @@ local selection = 1
 local function drawButton(x,y, num, name)
     term.setCursorPos(x,y)
     if selection == num then
-        term.write(">" + name)
+        term.write(">", name)
     else
         term.write(name)
     end
