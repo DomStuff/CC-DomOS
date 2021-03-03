@@ -17,7 +17,7 @@ local function drawMenu()
     drawButton(2,3,1,"Test")
 end
 
-while true then
+while true do
     term.clear()
     drawMenu()
 end
