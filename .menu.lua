@@ -1,5 +1,3 @@
-term.clear()
-
 local w, h = term.getSize()
 
 local selection = 1
@@ -19,4 +17,7 @@ local function drawMenu()
     drawButton(2,3,1,"Test")
 end
 
-drawMenu()
+while true then
+    term.clear()
+    drawMenu()
+end
