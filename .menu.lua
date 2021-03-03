@@ -18,6 +18,7 @@ local function drawMenu()
 end
 
 while true do
-    term.clear()
     drawMenu()
+    
+    term.clear()
 end
