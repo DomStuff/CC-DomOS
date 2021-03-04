@@ -11,5 +11,5 @@ end
 
 while true do
     drawMenu()
-    term.clear()
+    
 end
