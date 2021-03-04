@@ -1,3 +1,5 @@
+term.clear()
+
 local w, h = term.getSize()
 
 local selection = 1
