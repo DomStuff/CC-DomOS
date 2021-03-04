@@ -9,7 +9,7 @@ term.setCursorPos(1,3)
 
 function install(name)
     local fileName = name
-	local getResponse = http.get("https://raw.githubusercontent.com/DomStuff/CC-DomOS/main/" .. fileName .. ".lua")
+	local getResponse = http.get("https://raw.githubusercontent.com/DomStuff/CC-DomOS/main/" .. fileName)
 	local file = fs.open(fileName, "w")
 	file.write(getResponse.readAll())
 	file.close()
