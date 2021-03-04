@@ -12,7 +12,7 @@ local function drawMenu()
 end
 
 while true do
-    local mb, mx, my = os.pullEvent("mouse_click")
+    mb, mx, my = os.pullEvent("mouse_click")
     drawMenu()
     
 end
