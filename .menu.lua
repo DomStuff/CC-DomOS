@@ -1,5 +1,5 @@
 local w, h = term.getSize()
-local mb, mx, my = os.pullEvent("mouse_click")
+
 local selection = 1
 
 local function drawMenu()
@@ -10,6 +10,7 @@ local function drawMenu()
 end
 
 while true do
+    local mb, mx, my = os.pullEvent("mouse_click")
     drawMenu()
     
 end
