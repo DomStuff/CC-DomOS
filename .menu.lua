@@ -6,7 +6,7 @@ local selection = 1
 
 local function drawMenu()
     local mp, mb, mx, my = os.pullEvent("mouse_click")
-    
+    term.clear()
     term.setCursorPos(1, 1)
     print("Pressed: " .. mp)
     print("Mouse X: " .. mx)
@@ -15,7 +15,6 @@ local function drawMenu()
 end
 
 while true do
-    term.clear()
     drawMenu()
     
 end
