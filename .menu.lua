@@ -10,7 +10,7 @@ local function drawMenu()
     term.setCursorPos(1, 1)
     print("Mouse X: " .. mx)
     print("Mouse Y: " .. my)
-    print("Button: " .. mb)
+    print("Button : " .. mb)
     print("Pressed: " .. mp)
 end
 
