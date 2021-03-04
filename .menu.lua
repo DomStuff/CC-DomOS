@@ -11,11 +11,9 @@ local function drawMenu()
     print("Mouse X: " .. mx)
     print("Mouse Y: " .. my)
     print("Button: " .. mb)
-    
-    paintutils.drawPixel(mx, my, colours.red)
+    print("Pressed: " .. mp)
 end
 
 while true do
     drawMenu()
-    
 end
