@@ -11,7 +11,6 @@ local function drawButton(x,y, num, name)
     end
 end 
 local function drawMenu()
-    term.clear()
     term.setCursorPos(1, 1)
     
     drawButton(2,3,1,"Test")
@@ -19,4 +18,5 @@ end
 
 while true do
     drawMenu()
+    term.clear()
 end
