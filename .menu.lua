@@ -1,10 +1,12 @@
 term.clear()
 
 local w, h = term.getSize()
-local mb, mx, my = os.pullEvent("mouse_click")
+
 local selection = 1
 
 local function drawMenu()
+    local mb, mx, my = os.pullEvent("mouse_click")
+    
     term.setCursorPos(1, 1)
     print("Mouse X: " .. mx)
     print("Mouse Y: " .. my)
@@ -12,7 +14,6 @@ local function drawMenu()
 end
 
 while true do
-    mb, mx, my = os.pullEvent("mouse_click")
     drawMenu()
     
 end
