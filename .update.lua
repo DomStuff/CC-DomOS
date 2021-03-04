@@ -17,9 +17,9 @@ function install(name)
 	term.write("#")
 end
 
-install("startup")
-install(".menu")
-install(".update")
+install("startup.lua")
+install(".menu.lua")
+install(".update.lua")
 
 term.setCursorPos(1,5)
 shell.run("reboot")
