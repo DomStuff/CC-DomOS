@@ -1,19 +1,13 @@
 local w, h = term.getSize()
+local mx, my, mb = term.getCursorPos()
 
 local selection = 1
 
-local function drawButton(x,y, num, name)
-    term.setCursorPos(x,y)
-    if selection == num then
-        term.write(">", name)
-    else
-        term.write(name)
-    end
-end 
 local function drawMenu()
     term.setCursorPos(1, 1)
-    
-    drawButton(2,3,1,"Test")
+    print("Mouse X: " .. mx)
+    print("Mouse Y: " .. my)
+    print("Button Pressed: " .. mp)
 end
 
 while true do
