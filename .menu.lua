@@ -6,7 +6,7 @@ local selection = 1
 
 local function drawMenu()
     local mp, mb, mx, my = os.pullEvent("mouse_click")
-    term.setBackgroundColour(color.white)
+    term.setBackgroundColour(colours.white)
     term.clear()
     
     
