@@ -6,6 +6,7 @@ local selection = 1
 
 local function drawMenu()
     term.setBackgroundColour(colours.white)
+    term.setTextColour(colours.black)
     term.clear()
 end
 
