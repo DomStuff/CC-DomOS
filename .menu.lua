@@ -13,4 +13,7 @@ while true do
     drawMenu()
     
     local mp, mb, mx, my = os.pullEvent("mouse_click")
+    
+    term.setCursorPos(mx-1, my)
+    term.write("OwO")
 end
